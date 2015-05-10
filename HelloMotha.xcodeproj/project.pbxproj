@@ -11,7 +11,6 @@
 		8D3969821A9D40E0008BB804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3969811A9D40E0008BB804 /* ViewController.swift */; };
 		8D3969851A9D40E0008BB804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3969831A9D40E0008BB804 /* Main.storyboard */; };
 		8D3969871A9D40E0008BB804 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3969861A9D40E0008BB804 /* Images.xcassets */; };
-		8D39698A1A9D40E0008BB804 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3969881A9D40E0008BB804 /* LaunchScreen.xib */; };
 		8D3969961A9D40E0008BB804 /* HelloMothaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3969951A9D40E0008BB804 /* HelloMothaTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		8D3969811A9D40E0008BB804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D3969841A9D40E0008BB804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D3969861A9D40E0008BB804 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8D3969891A9D40E0008BB804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D39698F1A9D40E0008BB804 /* HelloMothaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMothaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3969941A9D40E0008BB804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3969951A9D40E0008BB804 /* HelloMothaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMothaTests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				8D3969811A9D40E0008BB804 /* ViewController.swift */,
 				8D3969831A9D40E0008BB804 /* Main.storyboard */,
 				8D3969861A9D40E0008BB804 /* Images.xcassets */,
-				8D3969881A9D40E0008BB804 /* LaunchScreen.xib */,
 				8D39697D1A9D40E0008BB804 /* Supporting Files */,
 			);
 			path = HelloMotha;
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D3969851A9D40E0008BB804 /* Main.storyboard in Resources */,
-				8D39698A1A9D40E0008BB804 /* LaunchScreen.xib in Resources */,
 				8D3969871A9D40E0008BB804 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +238,6 @@
 				8D3969841A9D40E0008BB804 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8D3969881A9D40E0008BB804 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D3969891A9D40E0008BB804 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
